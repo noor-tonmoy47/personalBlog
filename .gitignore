@@ -1,1 +1,3 @@
 index.ejs
+node_modules
+config.env
