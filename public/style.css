@@ -1,0 +1,158 @@
+body{
+    margin: 50px;
+    padding: 0;
+    font-family: 'Open Sans', 'Segoe UI', sans-serif;
+/* align-items: center;
+align-content: center; */
+    background-color: rgb(210, 205, 205);
+}
+
+.Main{
+    /* background-color: aqua; */
+    width: 40vw;
+    height: 100vh;
+    position: relative;
+    left: 30%;
+    /* display: flex; */
+}
+
+.Heading{
+    /* background-color: navy; */
+    width: 100%;
+    height: 7%;
+    display: flex;
+    margin-bottom: 30px;
+}
+.title{
+    /* background-color: lawngreen; */
+    width: 75%;
+    height: 100%;
+    font-family: 'Great Vibes', cursive;
+    /* font-size: 30px; */
+    font-size: 3.3rem;
+    align-content: center;
+    /* padding: 5px; */
+    /* position: relative; */
+}
+
+.toggle{
+    /* background-color: gold; */
+    width: 25%;
+    height: 100%;
+    align-content: center;
+    /* position: relative; */
+    /* left: 12%; */
+}
+.toggleBtn{
+    width: 65%;
+    height: 65%;
+    position: relative;
+    left: 17%;
+}
+
+
+.perInfo{
+    /* background-color: green; */
+    width: 100%;
+    height: 10%;
+    display:flex;
+    margin-bottom: 30px;
+}
+
+.picture{
+    /* background-color: red; */
+    width: 13%;
+    height: 0;
+    padding-bottom: 13%;
+    position: relative;
+    overflow: hidden;
+}
+
+#image{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.bio{
+    width: 87%;
+    height: 100%;
+    
+    font-size: 1.4rem;
+    margin-left:15px;
+    line-height: 1.7;
+    
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+.blogs{
+    /* background-color: royalblue; */
+    width: 100%;
+    height: 90%;
+
+}
+
+
+.blogCards{
+    background-color: rgb(233, 229, 229);
+    width: 100%;
+    height: 20%;
+    border: 1px;
+    border-radius: 12px;
+    padding: 3%;
+    /* padding: 1.4rem; */
+    margin-bottom: 1rem;
+}
+
+.blogTitle{
+    /* background-color: lightcoral; */
+    width: 100%;
+    
+    font-family: roboto , sans-serif;
+    margin-bottom: .1rem;  
+    font-size: 1.75rem;
+    font-weight:600;
+    word-spacing: 0; 
+    color: #303037;
+    font-weight: 700;
+}
+
+.metaData{
+    /* background-color: black; */
+    width: 100%;
+    /* height: 20%; */
+    display: flex;
+    margin-bottom: 1.5rem;
+    color: #50505a;
+    font-weight: 600;
+}
+
+.readingTime, .date{
+    margin: 8px;
+    font-size: 1.1rem;
+}
+
+
+/* .date{
+    margin: 5px;
+    fon
+} */
+
+.description{
+    /* background-color: magenta; */
+    width: 100%;
+    height: 35%;
+    font-size: 1.3rem;
+    line-height: 1.7;
+    font-weight: 100;
+    color: #50505a;
+} 
