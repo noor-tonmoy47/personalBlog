@@ -1,7 +1,7 @@
 const demo = require('../model/demo');
 
 const getAllBlogs = (req, res)=>{
-    res.render('../public/index.ejs', {data: demo});
+    res.render('index', {data: demo});
 }
 
 module.exports = {getAllBlogs};
